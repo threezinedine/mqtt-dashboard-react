@@ -6,13 +6,31 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "link": "react-native link react-native-native-mqtt"
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.17.0",
+    "@react-navigation/bottom-tabs": "^6.4.0",
     "expo": "~46.0.13",
     "expo-status-bar": "~1.4.0",
+    "mqtt": "^4.3.7",
+    "paho-mqtt": "^1.1.0",
     "react": "18.0.0",
-    "react-native": "0.69.5"
+    "react-dom": "18.0.0",
+    "react-native": "0.69.5",
+    "react-native-fontawesome": "^7.0.0",
+    "react-native-gauge": "^0.1.2",
+    "react-native-native-mqtt": "^0.1.8",
+    "react-native-simple-gauge": "^0.3.1",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-web": "~0.18.7",
+    "react-redux": "^8.0.4",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "sp-react-native-mqtt": "^0.5.1",
+    "styled-component": "^2.8.0",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
